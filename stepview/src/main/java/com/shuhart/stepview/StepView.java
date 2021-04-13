@@ -79,40 +79,40 @@ public class StepView extends View {
     @AnimationType
     private int animationType;
     @ColorInt
-    private int selectedCircleColor;
+    public int selectedCircleColor;
     @Dimension
     public int selectedCircleRadius;
     @ColorInt
-    private int selectedTextColor;
+    public int selectedTextColor;
     @ColorInt
-    private int doneCircleColor;
+    public int doneCircleColor;
     @Dimension
     public int doneCircleRadius;
     @ColorInt
-    private int doneTextColor;
+    public int doneTextColor;
     @ColorInt
-    private int nextTextColor;
+    public int nextTextColor;
     @Dimension
-    private int stepPadding;
+    public int stepPadding;
     @ColorInt
-    private int nextStepLineColor;
+    public int nextStepLineColor;
     @ColorInt
-    private int doneStepLineColor;
+    public int doneStepLineColor;
     @Dimension
     public int stepLineWidth;
     @Dimension(unit = Dimension.SP)
-    private float textSize;
+    public float textSize;
     @Dimension
-    private int textPadding;
-    private int selectedStepNumberColor;
+    public int textPadding;
+    public int selectedStepNumberColor;
     @Dimension(unit = Dimension.SP)
     public float stepNumberTextSize;
     @ColorInt
-    private int doneStepMarkColor;
+    public int doneStepMarkColor;
     private int animationDuration;
     private boolean nextStepCircleEnabled;
     @ColorInt
-    private int nextStepCircleColor;
+    public int nextStepCircleColor;
 
     private Paint paint;
     private TextPaint textPaint;
