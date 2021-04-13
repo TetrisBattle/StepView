@@ -81,13 +81,13 @@ public class StepView extends View {
     @ColorInt
     private int selectedCircleColor;
     @Dimension
-    private int selectedCircleRadius;
+    public int selectedCircleRadius;
     @ColorInt
     private int selectedTextColor;
     @ColorInt
     private int doneCircleColor;
     @Dimension
-    private int doneCircleRadius;
+    public int doneCircleRadius;
     @ColorInt
     private int doneTextColor;
     @ColorInt
@@ -99,14 +99,14 @@ public class StepView extends View {
     @ColorInt
     private int doneStepLineColor;
     @Dimension
-    private int stepLineWidth;
+    public int stepLineWidth;
     @Dimension(unit = Dimension.SP)
     private float textSize;
     @Dimension
     private int textPadding;
     private int selectedStepNumberColor;
     @Dimension(unit = Dimension.SP)
-    private float stepNumberTextSize;
+    public float stepNumberTextSize;
     @ColorInt
     private int doneStepMarkColor;
     private int animationDuration;
