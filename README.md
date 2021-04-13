@@ -6,8 +6,8 @@ A simple animated step view for Android. Backward and forward animations is supp
 Usage
 -----
 
-1. Add jcenter() to repositories block in your gradle file.
-2. Add `implementation 'com.shuhart.stepview:stepview:1.5.1'` to your dependencies.
+1. Add `maven { url 'https://jitpack.io' }` to allprojects block in your gradle file.
+2. Add `implementation 'com.github.TetrisBattle:StepView:1.0'` to your dependencies.
 3. Add `StepView` into your layouts or view hierarchy.
 
 Supported animations:
